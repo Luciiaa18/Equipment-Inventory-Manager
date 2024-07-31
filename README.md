@@ -58,7 +58,7 @@ Assegureu-vos que les següents dependències estan incloses en el projecte:
   - Utilitzeu Eclipse per compilar i construir el projecte. Assegureu-vos que no hi hagi errors de compilació.
 
 - **Execució:**
-  - Després de la construcció, executeu l'aplicació des de Tomcat per assegurar-vos que tot el sistema està operatiu.
+  - Després de la construcció, executeu l'aplicació (index.jsp) des de Tomcat per assegurar-vos que tot el sistema està operatiu.
 
 ### Maneig d'Errors
 
