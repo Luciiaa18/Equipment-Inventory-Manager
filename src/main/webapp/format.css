@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Colores de las filas*/
+tr:nth-child(even) {
+    background-color: rgb( 212, 230, 241 ); 
+}
+
+tr:nth-child(odd) {
+    background-color: rgb( 235, 245, 251 ); 
+}
+
+/* líneas de la tabla */
+th, td {
+    border: 4px solid rgb(255, 255, 255); 
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Formato para las columnas */
+th, td {
+    min-width: 180px; 
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Cambiar el fondo de la penúltima celda y encabezado */
+td:nth-last-child(2), th:nth-last-child(2) {
+    background-color: white;
+}
+
+/* Estilo para la primera fila */
+tr:first-child {
+    background-color: rgb( 235, 245, 251);
+    vertical-align: bottom;
+}
+
+/* Estilo para la primera columna */
+td:first-child, th:first-child {
+    font-weight: bold;
+}
+
+/* Encabezado de la tabla */
+th {
+    background-color: #ffffff;
+    color: black;
+    border: 4px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+th:last-child,
+td:last-child {
+  display: none;
+}
+
+#tablaDatos th[data-column="Button"] {
+    color: white;
+}
+
+/* Estilo para centrar el texto en el encabezado de la columna PDF */
+#tablaDatos th[data-column="PDF"] {
+    text-align: center;
+}
+
+
+/* Oculta la columna 'id' */
+#tablaDatos td[data-column="id"],
+#tablaDatos th[data-column="id"] {
+    display: none;
+}
+
+.btn-xs-custom {
+        padding: 2px 5px;
+        font-size: 5px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }

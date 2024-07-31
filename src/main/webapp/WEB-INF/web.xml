@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Inventari_Servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DisplayPDFServlet</display-name>
+    <servlet-name>DisplayPDFServlet</servlet-name>
+    <servlet-class>com.DisplayPDFServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayPDFServlet</servlet-name>
+    <url-pattern>/DisplayPDF</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UploadPDFServlet</display-name>
+    <servlet-name>UploadPDFServlet</servlet-name>
+    <servlet-class>com.UploadPDFServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadPDFServlet</servlet-name>
+    <url-pattern>/UploadPDF</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EliminarPDFServlet</display-name>
+    <servlet-name>EliminarPDFServlet</servlet-name>
+    <servlet-class>com.EliminarPDFServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarPDFServlet</servlet-name>
+    <url-pattern>/EliminarPDF</url-pattern>
+  </servlet-mapping>
+</web-app>
