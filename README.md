@@ -2,7 +2,7 @@
 
 ## Descripció del Projecte
 
-Aquest projecte és una aplicació de gestió d'inventari desenvolupada amb Java, JavaScript, CSS i JSP, utilitzant Eclipse IDE. Permet a l'usuari gestionar registres d'inventari mitjançant una interfície web i una base de dades MySQL.
+Aquest projecte, desenvolupat en Eclipse IDE, utilitza una combinació de tecnologies com Java, JavaScript, CSS i JSP per proporcionar una eina eficient i fàcil d'usar per a la gestió i visualització de l'inventari. L'aplicació permet als usuaris interactuar amb una base de dades per realitzar operacions essencials com afegir, modificar, eliminar i consultar registres d'inventari. 
 
 ## Estructura del Projecte
 
